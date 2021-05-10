@@ -13,7 +13,7 @@ body {
 
 
 .cardContainer {
-  width: min(1100px,100%);
+  width: min(1100px,90%);
   margin: 0px auto;
   min-height: 100vh;
   color: white;
@@ -97,7 +97,7 @@ h4 {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   .wrapper {
     flex-direction: column-reverse;
     margin: 0rem 1rem;
