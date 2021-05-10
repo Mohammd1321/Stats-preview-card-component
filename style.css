@@ -13,7 +13,7 @@ body {
 
 
 .cardContainer {
-  width: min(750px,92%);
+  width: min(1100px,100%);
   margin: 0px auto;
   min-height: 100vh;
   color: white;
@@ -38,8 +38,8 @@ body {
 }
 
 
-.top h6 {
-  margin: 1rem 0rem;
+.top h4 {
+  margin: 1.5rem 0rem;
 }
 
 .diffColor {
@@ -80,18 +80,19 @@ body {
 
 .status span {
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .numbers + .numbers {
-  padding-left: .8rem;
+  padding-left: 1rem;
 }
 
-.status h6 {
+.status h4 {
   text-transform: uppercase;
   margin-top: .5rem;
 }
 
-h6 {
+h4 {
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
 }
@@ -99,6 +100,8 @@ h6 {
 @media screen and (max-width: 375px) {
   .wrapper {
     flex-direction: column-reverse;
+    margin: 0rem 1rem;
+    text-align: center;
   }
   .rightCard img,
 .rightCard,
@@ -107,10 +110,18 @@ h6 {
 }
 .leftCard {
   border-radius: 0px 0px 10px 10px;
-  padding: 15px;
+  padding: 30px 15px;
 }
 .top h2 {
   font-size: 1rem;
 }
-
+.status {
+  flex-direction: column;
+}
+.numbers + .numbers {
+  padding: 0px;
+}
+.numbers {
+  margin-top: 2rem;
+}
 }
